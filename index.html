@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: #ebf2eb;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 16px;
+    }
+    img {
+      display: block;
+      max-width: min(80vw, 800px);
+      max-height: 70vh;
+      width: auto;
+      height: auto;
+    }
+    p {
+      margin: 0;
+      font-family: 'Caveat', cursive;
+      font-weight: 600;
+      font-size: clamp(1.5rem, 5vw, 2.75rem);
+      color: #2f472f;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="barky.svg" alt="Barky">
+    <p>just sitting here wondering what to do next</p>
+  </main>
+</body>
+</html>
